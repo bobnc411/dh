@@ -18,6 +18,8 @@ public class Engine{
 		}
 	}
 	
+//	TEST
+	
 	public static final Engine instance = new Engine();
 	
 	private Engine(){};
