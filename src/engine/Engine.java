@@ -8,8 +8,6 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GLContext;
 import org.lwjgl.system.MemoryUtil;
 
-// YOU SUCK ROBERT
-
 public class Engine{
 	
 	private class EngineThread extends Thread{
@@ -17,9 +15,6 @@ public class Engine{
 			instance.run();
 		}
 	}
-	
-//	TEST
-	// TEST 2
 	
 	public static final Engine instance = new Engine();
 	
