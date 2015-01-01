@@ -68,7 +68,7 @@ public class Engine{
 			if(needsUpdate){
 				GL11.glMatrixMode(GL11.GL_PROJECTION);
 				GL11.glLoadIdentity();
-				GL11.glOrtho(0, width, height, 0, 1000, -1000);
+				GL11.glOrtho(0, 1216, 704, 0, 1000, -1000);
 				GL11.glMatrixMode(GL11.GL_MODELVIEW);
 				needsUpdate = false;
 			}
