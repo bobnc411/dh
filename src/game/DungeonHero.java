@@ -19,7 +19,7 @@ public class DungeonHero implements GameController {
 
 	@Override
 	public void init() {
-		background = new int[48][32];
+		background = new int[40][24];
 		Random seedGen = new Random();
 		long seed = seedGen.nextLong();
 		Random rand = new Random(seed);
