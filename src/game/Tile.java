@@ -21,6 +21,7 @@ public class Tile {
 		tex = tileTex;
 		tiles[id] = this;
 		connectors.add(id);
+		//blah
 	}
 	
 	public Tile addConnector(int tileID){
